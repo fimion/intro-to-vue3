@@ -1,11 +1,9 @@
 <script setup>
 
 </script>
-
 <template>
-  <h1>My Todo List</h1>
-</template>
 
+</template>
 <style scoped>
 
 </style>
