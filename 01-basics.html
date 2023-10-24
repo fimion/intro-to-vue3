@@ -11,9 +11,12 @@
   import {createApp, ref, reactive} from "vue/dist/vue.esm-browser.js"
 
   const app = createApp({
-    template:`<h1>Hello World!</h1>`,
+    template:`<h1>{{message}}</h1>`,
     setup(){
-      return {}
+      const message = ref('Hello World!');
+      return {
+        message,
+      }
     }
   })
   app.mount('#app')
