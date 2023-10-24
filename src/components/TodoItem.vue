@@ -1,9 +1,11 @@
 <script setup>
 
 </script>
-<template>
 
+<template>
+  <p />
 </template>
+
 <style scoped>
 
 </style>

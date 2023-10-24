@@ -11,16 +11,16 @@
 <a href="./index.html">Return to List</a>
 <main id="app"></main>
 <script type="module">
-  import {createApp, ref, reactive} from "vue/dist/vue.esm-browser.js"
+  import { createApp, ref } from 'vue/dist/vue.esm-browser.js'
 
   const app = createApp({
-    template:`<h1>{{message}}</h1>`,
-    setup(){
-      const message = ref('Hello World!');
+    setup() {
+      const message = ref('Hello World!')
       return {
         message,
       }
-    }
+    },
+    template: '<h1>{{message}}</h1>',
   })
   app.mount('#app')
 </script>
