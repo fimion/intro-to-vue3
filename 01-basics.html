@@ -13,7 +13,10 @@
 </head>
 <body>
 <a href="./index.html">Return to List</a>
-<main id="app"></main>
+<main id="app">
+  <h1>{{message}}</h1>
+  <input type="text" v-model="message">
+</main>
 <script type="module">
   import { createApp, ref } from 'vue/dist/vue.esm-browser.js'
 
@@ -24,7 +27,6 @@
         message,
       }
     },
-    template: '<h1>{{message}}</h1>',
   })
   app.mount('#app')
 </script>
