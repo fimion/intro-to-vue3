@@ -1,3 +1,5 @@
-import antFu from '@antfu/eslint-config'
+import { EsLintConfig } from '@fimion/lint-config'
 
-export default antFu()
+export default [
+    ...EsLintConfig
+];

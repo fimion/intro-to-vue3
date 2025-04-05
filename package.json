@@ -13,7 +13,7 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.11.0",
+    "@fimion/lint-config":"1.0.1",
     "@vitejs/plugin-vue": "^5.2.3",
     "eslint": "9.24.0",
     "eslint-define-config": "^2.1.0",
